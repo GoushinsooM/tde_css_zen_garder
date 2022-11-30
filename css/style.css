@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,900;1,400;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red-salsa: #FB3640;
+    --paradise-pink: #EE4266;
+    --Pacific-blue: #00B2CA;
+    --Lavander-gray: #BBB5BD;
+    --smoky-black: #070600;
+    --white: #FFF;
+}
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 6rem;
+    color: var(--smoky-black);
+    line-height: 1.2;
+}
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: italic;
+    color: var(--smoky-black);
+    letter-spacing: .2rem;
+}
+
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.2;
+    color: var(--smoky-black);
+    font-size: 1.3rem;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: var(--smoky-black);
+}
+
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: var(--smoky-black);    
+}
+
+.page-wrapper{
+    position: relative;
+}
+
+/*Intro*/
+[role = banner], .summary{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    background-color: var(--Pacific-blue);
+    height: 30vh;
+}
+
+section.intro a{
+    text-decoration: none;
+    color: var(--red-salsa);
+}
+
+section.intro a:hover{
+    font-weight: bold;
+}
+
+.summary p{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    max-width: 55%;
+}
+
+.preamble{
+    background-color: var(--Pacific-blue);
+}
+
+div .preamble h3{
+    padding-left: 5rem;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+div .preamble p{
+    padding-bottom: 1rem;
+    margin-left: 5rem;
+    max-width: 55%;
+}
+
+/*Main supporting*/
+
+div.main.supporting a{
+    text-decoration: none;
+    color: var(--Pacific-blue);
+}
+div.main.supporting a:hover{
+    font-weight: bold;
+}
+
+.explanation{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--red-salsa);
+}
+
+.explanation h3{
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.explanation p{
+    padding-left: 5rem;
+    max-width: 60%;
+    padding-bottom: 1rem;
+}
+
+.participation{
+    background-color: var(--paradise-pink);
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    right: 1%;
+    top: 10%;
+    border-radius: 2rem;
+}
+
+div .participation h3{
+    font-weight: 600;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+div .participation p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+
+.benefits{
+    background-color: var(--Lavander-gray);
+}
+
+.benefits h3{
+    text-align: center;
+}
+
+.benefits p{
+    margin: auto;
+    line-height: 2;
+    text-align: center;
+    width: 80%;
+}
+
+.requirements{
+    background-color: var(--paradise-pink);
+    height: 80vh;
+}
+
+.requirements h3{
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    max-width: 60%;
+}
+
+.requirements p{
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    max-width: 60%;
+}
+
+.design-selection{
+    height: 70vh;
+    width: 22%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    position: absolute;
+    right: 9%;
+    top: 62%;
+
+    border-radius: 2rem;
+    background-color: var(--Pacific-blue);
+}
+
+.design-selection ul{
+    list-style-type: none;
+}
+
+.design-selection li{
+    padding-bottom: .3rem;
+}
+
+.design-selection a{
+    text-decoration: none;
+}
+
+.design-name{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: block;
+    color: var(--paradise-pink);
+
+}
+
+.design-name:hover{
+    color: var(--red-salsa);
+}
+
+
+.designer-name{
+    font-weight: bold;
+    color: var(--red-salsa);
+}
+
+.designer-name:hover{
+    color: var(--paradise-pink);
+}
+
+.design-archives{
+    background-color: #00B2CA;
+}
+
+h3.archives{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 22rem;
+    color: var(--red-salsa);
+}
+
+
+.design-archives ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto 10rem;
+}
+
+.design-archives li{
+    margin-right: .2rem;
+    justify-content: flex-end;
+}
+
+.design-archives a{
+    text-decoration: none;
+    color: var(--Pacific-blue);
+    font-weight: bold;
+}
+
+.design-archives a:hover{
+    color: var(--Lavander-gray);
+}
+
+.design-archives .next{
+    background-color: var(--paradise-pink);
+    border-radius: .3rem;
+    padding: .8rem;
+}
+
+.design-archives .viewall{
+    background-color: var(--paradise-pink);
+    border-radius: .3rem;
+    padding: .8rem;
+}
+
+footer{
+    position: absolute;
+    background-color: var(--red-salsa);
+    width: 15%;
+    padding: .5rem 0;
+    display: flex;
+    justify-content: space-around;
+    left: 5%;
+    bottom: 5%;
+}
+
+footer a{
+    color: var(--Pacific-blue);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+footer a:hover{
+    color: var(--Lavander-gray);
+}
+
+.zen-resources{
+    text-align: center;
+    background-color: var(--red-salsa);
+}
+
+.zen-resources ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.zen-resources h3{
+    display: none;
+}
+
+.zen-resources ul li a{
+    color: var(--Pacific-blue);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.zen-resources a:hover{
+    color: var(--Lavander-gray);
+}
+
+
+/*Media queries*/
+/*Tablet*/
+/* @media screen and (max-width: 1023px){
+    .preamble{
+        background-color: green;
+    }
+} */
+
+/*smartphone*/
+@media screen and (max-width: 768px){
+    /*page-wrapper*/
+
+    [role = banner], .summary{
+        padding-top: .3rem;
+        padding-left: 1.3rem;
+        max-height: 10vh;
+    }
+    
+    .summary, h1{
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .summary, h2{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    h3{
+        padding-left: 1.3rem;
+    }
+
+    p{
+        font-size: .8rem;
+    }
+
+    .summary p{
+        max-width: 100%;
+        font-size: .8rem;
+    }
+
+    div .preamble h3{
+        padding-left: 1.3rem;
+        padding-bottom: .3rem;
+    }
+    
+    div .preamble p{
+        padding-bottom: .3rem;
+        margin-left: 1.3rem;
+        max-width: 100%;
+        font-size: .8rem;
+    }
+
+    /*Intro*/
+    .explanation{
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: var(--red-salsa);
+    }
+    
+    .explanation h3{
+        padding-left: 1.3rem;
+    }
+    
+    .explanation p{
+        padding-left: 1.3rem;
+        max-width: 100%;
+    }
+    
+    .participation{
+        position: relative;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        right: 0%;
+        justify-content: space-around;
+        align-items: flex-start;
+        border-radius: 0;
+    }
+    
+    div .participation h3{
+        font-size: 1.3rem;
+        text-align: center;
+        padding-bottom: .1rem;
+    }
+    
+    div .participation p{
+        padding-left: 1.3rem;
+        font-size: .8rem;
+        text-align: center;
+        padding-bottom: .3rem;
+    }
+    .benefits{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+        
+    .benefits p{
+        line-height: 1.5;
+        width: 100%;
+    }
+    
+    .requirements{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .requirements h3{
+        padding-left: 1.3rem;
+        padding-bottom: .1rem;
+        max-width: 100%;
+    }
+    
+    .requirements p{
+        padding-left: 1.3rem;
+        padding-bottom: .3rem;
+        max-width: 100%;
+    }
+    /*wrapper*/
+    .design-selection{
+        height: 100%;
+        width: 100%;
+        
+        display: flex;
+        align-items: flex-start;
+        
+        right: 0%;
+        position: relative;
+    
+        border-radius: 0;
+    }
+    
+    h3.archives{
+        position: absolute;
+        bottom: 15%;
+    }
+    
+    h3.select{
+        font-size: 1rem;
+    }
+    .design-archives ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0;
+    }
+    
+    .design-archives li{
+        display: flex;
+        margin-right: 0;
+        justify-content: flex-end;
+    }
+
+    .design-name, .designer-name{
+        font-size: .8rem;
+    }
+
+    [role = navigation]{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-self: center;
+        align-content: space-around;
+        border-radius: .3rem;
+        padding-bottom: .8rem;
+    }
+
+    .navigation, .viewall{
+        position: absolute;
+        bottom: 10%;
+        left: 1%;
+    }
+    
+    .navigation, .next{
+        position: absolute;
+        bottom: 10%;
+        right: 1%;
+    }
+
+    .viewall a{
+        font-size: .8rem;
+    }
+    
+    .next a{
+        font-size: .8rem;
+    }
+
+    
+    footer{
+        position: relative;
+        width: 100%;
+        padding: .5rem 0;
+        display: flex;
+        justify-content: space-around;
+        left: 0;
+        bottom: 0;
+    }
+    
+    footer a{
+        font-size: .8rem;
+        font-weight: bold;
+    }
+    
+    .zen-resources{
+        text-align: center;
+    }
+    
+    .zen-resources ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    
+    .zen-resources ul li a{
+        font-size: .7rem;
+    }
+}
